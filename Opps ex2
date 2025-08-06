@@ -1,0 +1,21 @@
+package lab;
+Pame.java
+Primenum.java X
+import java.util.Scanner;
+public class Primenum {
+public static void main(Stringll args) 1
+Scanner sc =new Scanner (System.in); int n=sc.nextInt();
+int a=0;
+if(n<=1) {
+a=1;
+
+for (int i=2;i<Math.sqrt(n) ;i++) {
+if
+(n%i==0) i
+a=1;
+if (a==0) 1
+System.out-println("is prime");
+}else 1
+System.out println("is not prime");
+
+}}
