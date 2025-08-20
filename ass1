@@ -1,0 +1,18 @@
+class Assistant {
+    void respond() {
+        System.out.println("Thinking...");
+    }
+}
+
+class Programmer extends Assistant {
+    void respond() {
+        System.out.println("Writing Java code.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Assistant a = new Programmer();  // Dynamic binding
+        a.respond();  // Output: Writing Java code.
+    }
+}
